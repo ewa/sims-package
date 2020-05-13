@@ -1,31 +1,23 @@
 <?xml version="1.0"?>
 <interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>myprog</name>
-  <summary>does useful stuff</summary>
+  <name>MC Command Center</name>
+  <summary>a mod from deaderpool, and my first Sims 4 0install test</summary>
 
-  <!-- Optional fields
-  <description>
-    A longer description goes here.
 
-    You can include multiple paragraphs too.
-  </description>
+  <homepage>https://deaderpool-mccc.com/#/</homepage>
 
-  <homepage>http://example.com/myprog.html</homepage>
-
-  <feed-for interface="http://example.com/0install/myprog.xml"/>
-  -->
-
-  <group license="OSI Approved :: GNU Lesser General Public License (LGPL)">
-    <command name="run" path="myprog.py">
-      <runner interface="http://repo.roscidus.com/python/python">
-	<version not-before="3"/>
-      </runner>
-    </command>
+  <category>Game</category>
+    
+  <group license="License :: Free To Use But Restricted"
+	 langs="en_US">
 
     <!-- Add additional requirements here.
     <requires interface="..."/>
     -->
 
-    <implementation arch="*-*" id="." local-path="." version="0.1-pre"/>
+    <implementation arch="*-*" version="{version}">
+      
+      https://www.mediafire.com/file/i547ewwpknmh41l/McCmdCenter_AllModules_7_1_0.zip/file
+    </implementation>
   </group>
 </interface>
