@@ -15,7 +15,9 @@
     <requires interface="..."/>
     -->
 
-    <implementation arch="*-*" version="{version}">
+    <implementation arch="*-*" version="0.0.1">
+      <manifest-digest/>
+      <archive href="file:///Users/andersoe/Downloads/sims/McCmdCenter_AllModules_7_1_0.zip"/>
       
       https://www.mediafire.com/file/i547ewwpknmh41l/McCmdCenter_AllModules_7_1_0.zip/file
     </implementation>
