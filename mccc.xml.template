@@ -15,11 +15,12 @@
     <requires interface="..."/>
     -->
 
-    <implementation arch="*-*" version="0.0.1">
+    <implementation arch="*-*" version="{version}">
       <manifest-digest/>
-      <archive href="file:///Users/andersoe/Downloads/sims/McCmdCenter_AllModules_7_1_0.zip"/>
+      <archive
+	  href="file:///Users/andersoe/Downloads/sims/McCmdCenter_AllModules_{version}.zip"/>
       
-      https://www.mediafire.com/file/i547ewwpknmh41l/McCmdCenter_AllModules_7_1_0.zip/file
+      <!-- https://www.mediafire.com/file/i547ewwpknmh41l/McCmdCenter_AllModules_7_1_0.zip/file -->
     </implementation>
   </group>
 </interface>
