@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>MC Command Center</name>
+  <summary>a mod from deaderpool, and my first Sims 4 0install test</summary>
+
+
+  <homepage>https://deaderpool-mccc.com/#/</homepage>
+
+  <category>Game</category>
+    
+  <group langs="en_US" license="License :: Free To Use But Restricted">
+
+    <!-- Add additional requirements here.
+    <requires interface="..."/>
+    -->
+
+    <implementation arch="*-*" id="sha1new=9a075d9420e24e8b68f173ef520fb617d42c81cc" released="2020-05-12" version="7_1_0">
+      <manifest-digest sha256new="ZOPBPNKO72VV234MSSQIA4S63W3YE5HG7CCVNGXRPOMAAXQUTWSQ"/>
+      <archive href="file:///Users/andersoe/Downloads/sims/McCmdCenter_AllModules_7_1_0.zip" size="1429607"/>
+      
+      <!-- https://www.mediafire.com/file/i547ewwpknmh41l/McCmdCenter_AllModules_7_1_0.zip/file -->
+    </implementation>
+  </group>
+</interface>
