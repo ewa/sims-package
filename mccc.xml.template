@@ -5,7 +5,7 @@
 
 
   <homepage>https://deaderpool-mccc.com/#/</homepage>
-
+  <feed-for interface="https://luwak.org/x/sims001/mccc-{version}.xml"/>
   <category>Game</category>
     
   <group license="License :: Free To Use But Restricted"
