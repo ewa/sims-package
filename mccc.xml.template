@@ -5,7 +5,7 @@
 
 
   <homepage>https://deaderpool-mccc.com/#/</homepage>
-  <feed-for interface="https://luwak.org/x/sims001/mccc-{version}.xml"/>
+  <feed-for interface="https://luwak.org/x/sims001/public/mccc-{version}.xml"/>
   <category>Game</category>
     
   <group license="License :: Free To Use But Restricted"
@@ -18,7 +18,7 @@
     <implementation arch="*-*" version="{version}">
       <manifest-digest/>
       <archive
-	  href="file:///Users/andersoe/Downloads/sims/McCmdCenter_AllModules_{version}.zip"/>
+	  href="McCmdCenter_AllModules_{version}.zip"/>
       
       <!-- https://www.mediafire.com/file/i547ewwpknmh41l/McCmdCenter_AllModules_7_1_0.zip/file -->
     </implementation>

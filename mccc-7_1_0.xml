@@ -5,7 +5,7 @@
 
 
   <homepage>https://deaderpool-mccc.com/#/</homepage>
-  <feed-for interface="https://luwak.org/x/sims001/mccc-7_1_0.xml"/>
+  <feed-for interface="https://luwak.org/x/sims001/public/mccc-7_1_0.xml"/>
   <category>Game</category>
     
   <group langs="en_US" license="License :: Free To Use But Restricted">
@@ -14,9 +14,9 @@
     <requires interface="..."/>
     -->
 
-    <implementation arch="*-*" id="sha1new=9a075d9420e24e8b68f173ef520fb617d42c81cc" released="2020-05-17" version="7_1_0">
+    <implementation arch="*-*" id="sha1new=9a075d9420e24e8b68f173ef520fb617d42c81cc" released="2020-05-18" version="7_1_0">
       <manifest-digest sha256new="ZOPBPNKO72VV234MSSQIA4S63W3YE5HG7CCVNGXRPOMAAXQUTWSQ"/>
-      <archive href="file:///Users/andersoe/Downloads/sims/McCmdCenter_AllModules_7_1_0.zip" size="1429607"/>
+      <archive href="McCmdCenter_AllModules_7_1_0.zip" size="1429607"/>
       
       <!-- https://www.mediafire.com/file/i547ewwpknmh41l/McCmdCenter_AllModules_7_1_0.zip/file -->
     </implementation>
