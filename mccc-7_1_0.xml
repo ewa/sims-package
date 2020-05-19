@@ -1,11 +1,19 @@
 <?xml version="1.0"?>
-<interface xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>MC Command Center</name>
-  <summary>a mod from deaderpool, and my first Sims 4 0install test</summary>
+<interface min-injector-version="2.0" uri="https://luwak.org/x/sims001/public/sims4-mod-MCCC.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>MCCC: MC Command Center</name>
+  <summary>Deaderpool's collecction of enhancement mods</summary>
+  <description>&quot;My goal with this module is to expand the functionality and story progression within the Sims 4. I was inspired by Twallan’s Master Controller mod for the Sims 3, so any similarity is INTENDED. :)
+
+  Here is a description of each of the modules and their functionality.&quot;
+
+  NOTE:  These implementation links point to my copy of the zip file
+  for development/debugging purposes -- I haven't figured out how to
+  download from Mediafire within 0install.
+  </description>
 
 
   <homepage>https://deaderpool-mccc.com/#/</homepage>
-  <feed-for interface="https://luwak.org/x/sims001/public/mccc-7_1_0.xml"/>
+  <feed-for interface="https://luwak.org/x/sims001/public/sims4-mod-MCCC.xml"/>
   <category>Game</category>
     
   <group langs="en_US" license="License :: Free To Use But Restricted">

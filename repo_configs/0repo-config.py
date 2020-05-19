@@ -207,6 +207,7 @@ def get_public_rel_path(feeds_rel_path):
         if STRIP_RE.match(feeds_rel_path):
                 sys.stderr.write("GPRP\trewriting\t{inp}\t--> {out}\n".format(inp=feeds_rel_path, out=newpath))
         return newpath
+        # return feeds_rel_path
 
 # is_excluded_from_catalog controls wether a specific feed should be excluded from
 # the generated catalog. By default this excludes any feed that has been marked as
